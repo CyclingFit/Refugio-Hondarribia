@@ -6,7 +6,7 @@ const OFFLINE_URL = "/";
 const PRECACHE_URLS = [
   "/",
   "/index.html",
-  "/favicon.ico",
+  "/favicon.png",
 ];
 
 self.addEventListener("install", (event) => {

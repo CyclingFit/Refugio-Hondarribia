@@ -1,7 +1,7 @@
 {
-  "name": "Refugio Sierra del Águila",
-  "short_name": "Refugio",
-  "description": "Información del refugio libre de montaña Sierra del Águila",
+  "short_name": "R. Hondarribia",
+  "name": "Refugio de Hondarribia",
+  "description": "Información del refugio libre ubicado en Hondarribia junto al Faro de Higer",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f5f2ee",

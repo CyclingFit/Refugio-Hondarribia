@@ -1,4 +1,4 @@
-// Service Worker para modo offline — Refugio Sierra del Águila
+// Service Worker para modo offline — Refugio de Hondarribia
 const CACHE_NAME = "refugio-cache-v1";
 const OFFLINE_URL = "/";
 

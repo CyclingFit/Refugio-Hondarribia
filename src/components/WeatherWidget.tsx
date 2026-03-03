@@ -4,9 +4,9 @@ import {
   CloudSun, Droplets, Sun, Thermometer, Wind, Eye, Gauge
 } from "lucide-react";
 
-const LATITUDE = 40.25;
-const LONGITUDE = -3.95;
-const ALTITUDE = 2450;
+const LATITUDE = 43.3919;
+const LONGITUDE = -1.7919;
+const ALTITUDE = 40;
 
 interface WeatherData {
   temperature: number;
@@ -138,7 +138,7 @@ const WeatherWidget = () => {
       <div className="bg-gradient-to-br from-primary/10 via-card to-accent/5 p-4 sm:p-5 md:p-6">
         <div className="flex items-center gap-2 text-[11px] sm:text-xs text-muted-foreground mb-2 sm:mb-3">
           <Gauge className="w-3 h-3 sm:w-3.5 sm:h-3.5 flex-shrink-0" />
-          <span className="truncate">Refugio Sierra del Águila · {ALTITUDE} m · Tiempo real</span>
+          <span className="truncate">Refugio de Hondarribia · {ALTITUDE} m · Tiempo real</span>
         </div>
         <div className="flex items-center justify-between gap-2">
           <div className="min-w-0">

@@ -38,11 +38,11 @@ const Index = () => {
               Acceso mediante código QR
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-3 sm:mb-4 drop-shadow-lg leading-tight">
-              Refugio Sierra del Águila
+              Refugio de Hondarribia
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-primary-foreground/85 mb-6 sm:mb-8 leading-relaxed max-w-lg">
-              Refugio libre de montaña a 2.450 m de altitud en el corazón de la sierra.
-              Tu punto de descanso seguro, libre y gratuito.
+              Información de acceso, servicios y coordenadas.
+              Tu punto de encuentro junto al Faro de Higer.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link

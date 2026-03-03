@@ -9,18 +9,18 @@ const Refugio = () => (
     <div className="container px-3 sm:px-4 py-5 sm:py-8 md:py-12 space-y-3 sm:space-y-4 max-w-2xl">
       <InfoCard icon={Home} title="Descripción">
         <p>
-          Refugio libre de montaña ubicado en la cara norte de la Sierra del Águila. Construido en piedra y diseñado para
-          ofrecer protección básica a montañeros y excursionistas en tránsito por la zona.
+          Refugio libre ubicado junto al Faro de Higer en Hondarribia. Construido en piedra y diseñado para
+          ofrecer protección a caminantes y excursionistas en la costa.
         </p>
       </InfoCard>
       <InfoCard icon={Mountain} title="Altitud">
-        <p>2.450 metros sobre el nivel del mar</p>
+        <p>Cota casi a nivel del mar (Faro de Higer, 40 metros)</p>
       </InfoCard>
       <InfoCard icon={Users} title="Capacidad">
-        <p>12 personas (literas básicas sin colchón)</p>
+        <p>Espacio abierto / Zona de descanso exterior</p>
       </InfoCard>
       <InfoCard icon={Info} title="Tipo de refugio">
-        <p><strong>Refugio libre</strong> — Sin guarda. Acceso libre y gratuito. Se ruega respetar las normas de uso.</p>
+        <p><strong>Punto de encuentro libre</strong> — Accesible para todo el público. Se ruega respetar las normas y el entorno natural de Jaizkibel.</p>
       </InfoCard>
       <InfoCard icon={Calendar} title="Año de construcción">
         <p>Construido en 1987. Última rehabilitación: 2021.</p>

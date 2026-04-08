@@ -6,13 +6,13 @@ const Visor3D = () => {
   return (
     <div className="flex flex-col w-full px-2 sm:px-4 py-4 pb-12">
       <div className="shrink-0 mb-4">
-        <PageHeader 
-          icon={Box} 
-          title="Visor 3D" 
-          subtitle="Explora el Diseño del Refugio" 
+        <PageHeader
+          icon={Box}
+          title="Visor 3D"
+          subtitle="Simulacion de alta calidad del Refugio de Hondarribia"
         />
       </div>
-      
+
       {/* Contenedor principal del iFrame, ahora con altura gigante */}
       <div className="w-full rounded-xl overflow-hidden border border-border shadow-2xl relative" style={{ height: "calc(100vh - 220px)", minHeight: "600px" }}>
         <iframe
@@ -49,7 +49,7 @@ const Visor3D = () => {
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0"></div>
-                <p>Recreación precisa de un refugio funcional y realista</p>
+                <p>Simulación precisa de un refugio funcional y realista</p>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0"></div>
@@ -97,7 +97,7 @@ const Visor3D = () => {
             <Award className="w-10 h-10" />
           </div>
           <div className="text-center sm:text-left">
-            <h3 className="text-xl sm:text-2xl font-bold mb-2">Tiempo total de desarrollo</h3>
+            <h3 className="text-xl sm:text-2xl font-bold mb-2">Tiempo total de desarrollo y modding (modelado 3D)</h3>
             <p className="text-primary-foreground/90 text-sm sm:text-base leading-relaxed">
               Aproximadamente <strong>10,5 horas</strong> dedicadas al diseño, modelado y despliegue del proyecto.
             </p>

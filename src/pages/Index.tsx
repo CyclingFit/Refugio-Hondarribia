@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { MapPin, QrCode, Mountain, Users, DoorOpen, Activity, Phone, CloudSun, Wrench, ShieldAlert, CheckCircle2, Box } from "lucide-react";
-import heroImage from "@/assets/hero-mountain.jpg";
+import heroImage from "@/assets/paisaje-lugar.png";
 
 /** Página de inicio del refugio */
 const Index = () => {

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import {
   Home, Mountain, MapPin, Wrench, ShieldAlert,
-  Phone, CloudSun, Mail, Menu, X, ChevronRight, Sun, Moon
+  Phone, CloudSun, Mail, Menu, X, ChevronRight, Sun, Moon, Box
 } from "lucide-react";
 import { useTheme } from "@/hooks/useTheme";
 import {
@@ -11,6 +11,7 @@ import {
 
 const navItems = [
   { to: "/", label: "Inicio", icon: Home, desc: "Página principal" },
+  { to: "/visor3d", label: "Visor 3D", icon: Box, desc: "Modelo interactivo" },
   { to: "/refugio", label: "Refugio", icon: Mountain, desc: "Información del refugio" },
   { to: "/acceso", label: "Acceso", icon: MapPin, desc: "Cómo llegar" },
   { to: "/servicios", label: "Servicios", icon: Wrench, desc: "Qué hay disponible" },

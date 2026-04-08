@@ -1,18 +1,19 @@
 import { Link } from "react-router-dom";
-import { MapPin, QrCode, Mountain, Users, DoorOpen, Activity, Phone, CloudSun, Wrench, ShieldAlert, CheckCircle2 } from "lucide-react";
+import { MapPin, QrCode, Mountain, Users, DoorOpen, Activity, Phone, CloudSun, Wrench, ShieldAlert, CheckCircle2, Box } from "lucide-react";
 import heroImage from "@/assets/hero-mountain.jpg";
 
 /** Página de inicio del refugio */
 const Index = () => {
   const stats = [
-    { label: "Altitud", value: "2.450 m", icon: Mountain },
-    { label: "Capacidad", value: "12 pers.", icon: Users },
+    { label: "Altitud", value: "40 m", icon: Mountain },
+    { label: "Capacidad", value: "Exterior", icon: Users },
     { label: "Tipo", value: "Libre", icon: DoorOpen },
     { label: "Estado", value: "Abierto", icon: Activity },
   ];
 
   const sections = [
     { to: "/refugio", label: "El Refugio", desc: "Características e historia", icon: Mountain },
+    { to: "/visor3d", label: "Visor 3D", desc: "Explorar modelo interactivo", icon: Box },
     { to: "/acceso", label: "Cómo llegar", desc: "Ruta, coordenadas GPS y mapa", icon: MapPin },
     { to: "/servicios", label: "Servicios", desc: "Equipamiento disponible", icon: Wrench },
     { to: "/normas", label: "Normas", desc: "Uso responsable del refugio", icon: ShieldAlert },

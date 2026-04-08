@@ -15,6 +15,7 @@ import Normas from "./pages/Normas";
 import Emergencias from "./pages/Emergencias";
 import Meteo from "./pages/Meteo";
 import Contacto from "./pages/Contacto";
+import Visor3D from "./pages/Visor3D";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -32,6 +33,7 @@ const AnimatedRoutes = () => {
         <Route path="/emergencias" element={<PageTransition><Emergencias /></PageTransition>} />
         <Route path="/meteo" element={<PageTransition><Meteo /></PageTransition>} />
         <Route path="/contacto" element={<PageTransition><Contacto /></PageTransition>} />
+        <Route path="/visor3d" element={<PageTransition><Visor3D /></PageTransition>} />
         <Route path="*" element={<PageTransition><NotFound /></PageTransition>} />
       </Routes>
     </AnimatePresence>
